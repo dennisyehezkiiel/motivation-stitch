@@ -54,7 +54,7 @@ export function SignOff() {
                 stroke="currentColor"
                 strokeWidth="3"
                 strokeLinecap="round"
-                aria-label="Alex's signature"
+                aria-label="Zaqy's signature"
               >
                 <motion.path
                   d="M10 60 C 30 10, 50 10, 45 55 S 70 70, 85 30 C 90 15, 100 15, 100 40 S 120 70, 140 35 C 150 20, 160 20, 160 45 S 190 65, 210 30 L 215 25 C 230 50, 260 70, 290 40"
@@ -65,11 +65,11 @@ export function SignOff() {
               </svg>
             ) : (
               <span className="flex items-center gap-2 font-semibold text-slate-600">
-                <PenLine size={20} /> Click to sign off, Alex
+                <PenLine size={20} /> Click to sign off, Zaqy
               </span>
             )}
             <span className="absolute bottom-4 left-6 right-6 border-t border-slate-200 pt-2 text-left font-mono text-xs text-slate-500">
-              AUDITEE · ALEX
+              AUDITEE · ZAQY
             </span>
           </motion.button>
         </Reveal>
@@ -86,7 +86,7 @@ export function SignOff() {
               <p>
                 <strong>Books closed. Opinion: unqualified.</strong> You
                 studied, you balanced, you&apos;re ready. Go clear that exam,
-                Alex.
+                Zaqy.
               </p>
             </motion.div>
           )}
