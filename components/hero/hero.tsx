@@ -59,7 +59,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             className="mb-5 inline-block rounded-full border border-slate-200 bg-white px-4 py-1.5 font-mono text-xs text-slate-600"
           >
-            FOR ALEX · {"MID-SEM · WEEK 8"}
+            FOR ZAQY · {"MID-SEM · WEEK 8"}
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 24 }}
@@ -76,7 +76,7 @@ export function Hero() {
                 animate={{ scaleX: 1 }}
                 transition={{ delay: 0.8, duration: 0.7, ease: "easeOut" }}
               />
-              Alex&apos;s
+              Zaqy&apos;s
             </span>{" "}
             Knowledge Assets are{" "}
             <span className="text-emerald-600">Balanced</span> &amp; Ready to
